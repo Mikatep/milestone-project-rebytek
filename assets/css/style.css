@@ -1,0 +1,20 @@
+/*-------------------------------------------Colours*/
+
+/*-------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin: 15px;
+}
+
+.logo {
+    background: url(../images/Rebytek\ resyzed\ 120.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    width: 220px;
+}

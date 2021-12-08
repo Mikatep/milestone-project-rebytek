@@ -159,6 +159,6 @@ footer {
     padding-left:10px;
     margin-top: 175px;
     right:70px;
-    background-color:#dc3545;
+    background-color: rgba(255, 0, 0, 0.6);
     position: absolute;
   }

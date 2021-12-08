@@ -134,3 +134,31 @@ footer {
     color:#dc3545;
 }
 
+/*-------------------------------------------Hero section*/
+
+#hero-image {
+    height:500px;
+    width:100%;
+    background: url("../images/297058049-huge2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+
+  #cover-text {
+    font-size: 25%;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+    width:445px;
+    height:185px;
+    padding-top:10px;
+    padding-left:10px;
+    margin-top: 175px;
+    right:70px;
+    background-color:#dc3545;
+    position: absolute;
+  }

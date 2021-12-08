@@ -90,13 +90,21 @@ footer {
     margin: 0;
 }
 
+.social {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size:  13px;
-    line-height: 7px;
+    font-size:  14px;
+    line-height: 9px;
     text-align: center;
     color: #000732;
     background: #dc3545;
@@ -115,11 +123,14 @@ footer {
 }
 
 #footer-logo {
-    height: 100px;
+    height: 90px;
     width: 220px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
+
 
 #link-about:hover {
     color:#dc3545;
 }
+

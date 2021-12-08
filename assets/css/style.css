@@ -76,6 +76,11 @@ article {
         margin: 15px;}
 }
 
+@media(max-width: 768px) {
+    #footer-last {
+        display:none;}
+}
+
 /*-------------------------------------------Footer*/
 
 footer {
@@ -105,3 +110,16 @@ footer {
     color: aliceblue;
 }
 
+#footer-details {
+    padding: 20px;
+}
+
+#footer-logo {
+    height: 100px;
+    width: 220px;
+    padding-bottom: 10px;
+}
+
+#link-about:hover {
+    color:#dc3545;
+}

@@ -16,7 +16,44 @@
     font-family: "Roboto", sans-serif;
 }
 
+.row-headings {
+    font-family: "Exo", sans-serif;
+    font-weight: 800;
+    color: #000732;
+    padding-top: 10px;
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.col-headings {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    color: #000732;
+    padding-top: 10px;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.col-para {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    color: #000732;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: justify;
+}
+
+.col-btn {
+    color: #000732;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 /*-------------------------------------------Header*/
+
 header{
     font-family: "Roboto", sans-serif;
 }
@@ -41,13 +78,13 @@ header{
     color: #dc3545;
 }
 
-.btn {
+.btn-danger {
     margin-top: -3px;
     padding: 3px;
     border-radius: 25%;
 }
 
-.btn:hover {
+.btn-danger:hover {
     color: aliceblue;
 }
 
@@ -157,10 +194,10 @@ footer {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-  }
+}
 
 
-  #cover-text {
+#cover-text {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     color: aliceblue;
@@ -172,27 +209,45 @@ footer {
     right:70px;
     background-color: rgba(255, 0, 0, 0.6);
     position: absolute;
-  }
+}
 
-  #cover-text a {
-      color: #000732;
-  }
+#cover-text a {
+    color: #000732;
+}
 
-  #cover-text a:hover {
-      text-decoration: none;
-  }
+#cover-text a:hover {
+    text-decoration: none;
+}
 
-  #cover-text a h2:hover {
+#cover-text a h2:hover {
     color:aliceblue;
 }
 
 
-  #cover-text a h2 {
-      font-weight: 700;
-      font-family: "Exo", sans-serif;
-  }
+
+#cover-text a h2 {
+    font-weight: 700;
+    font-family: "Exo", sans-serif;
+}
 
 
-  #cover-text a h2,h3 {
-      font-size: 24px;
-  }
+#cover-text a h2,h3 {
+    font-size: 24px;
+}
+
+/*-------------------------------------------Our Work*/
+
+.section-image {
+    background: url(../images/volunteer-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    height: 400px;
+    width: 100%;
+}
+
+

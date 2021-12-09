@@ -4,7 +4,7 @@
 /*-------------------------------------------General styles*/
 
 .general-sub {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     color: aliceblue;
     padding-top: 7px;
@@ -13,6 +13,7 @@
 .inline-block {
     display: inline-block;
     color:aliceblue;
+    font-family: "Roboto", sans-serif;
 }
 
 /*-------------------------------------------Header*/
@@ -188,6 +189,7 @@ footer {
 
   #cover-text a h2 {
       font-weight: 700;
+      font-family: "Exo", sans-serif;
   }
 
 

@@ -82,6 +82,11 @@ article {
 }
 
 @media(max-width: 767px) {
+    #head-about, #p-about {
+        text-align: center;}
+}
+
+@media(max-width: 767px) {
     #cover-text {
         margin-right: -55px;}
 }

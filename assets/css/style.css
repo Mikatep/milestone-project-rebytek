@@ -145,7 +145,7 @@ header{
 .logo {
     min-height: 120px;
     width: 200px;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
 }
 
 .nav-name {
@@ -162,7 +162,7 @@ header{
 .btn-danger {
     margin-top: -3px;
     padding: 3px;
-    border-radius: 25%;
+    border-radius: 12px;
 }
 
 .btn-danger:hover {
@@ -307,6 +307,19 @@ footer {
     margin-bottom: 15px;
     height: 350px;
     width: 80%;
+}
+
+/*-------------------------------------------Hero image about.html*/
+
+#hero-image-about {
+    height:500px;
+    width: 100%;
+    background: url("../images/blonde1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: hero-zoom;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
 }
 
 

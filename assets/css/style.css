@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-/*-------------------------------------------Colours*/
 
 /*-------------------------------------------General styles*/
 
@@ -20,7 +19,8 @@
     font-family: "Exo", sans-serif;
     font-weight: 800;
     color: #000732;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 2.5rem;
     width: 100%;
     text-align: center;
@@ -31,61 +31,35 @@
     font-weight: 600;
     color: #000732;
     padding-top: 10px;
-    font-size: 2rem;
-    width: 100%;
+    font-size: 20px;
+    width: 80%;
 }
 
 .col-para {
     font-family: "Exo", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: #000732;
-    margin-top: 10px;
-    padding-top: 5px;
-    font-size: 1.5rem;
-    width: 100%;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 80%;
     text-align: justify;
+}
+
+.col-left {
+    float: right;
+}
+
+.col-right {
+    float: left;
 }
 
 .col-btn {
     color: #000732;
     font-weight: 600;
     font-size: 20px;
-}
-
-/*-------------------------------------------Header*/
-
-header{
-    font-family: "Roboto", sans-serif;
-}
-
-.logo {
-    background: url(../images/Rebytek\ resyzed\ 120.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 120px;
-    width: 200px;
-}
-
-.nav-name {
-    color: #000732;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-.nav-name:hover {
-    color: #dc3545;
-}
-
-.btn-danger {
-    margin-top: -3px;
-    padding: 3px;
-    border-radius: 25%;
-}
-
-.btn-danger:hover {
-    color: aliceblue;
+    margin-left: 15px;
 }
 
 /*-------------------------------------------Media Queries*/
@@ -129,13 +103,73 @@ article {
         margin-right: -55px;}
 }
 
+@media screen and (max-width: 767px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    .wrapper div:first-child {
+      order: 1;
+    }
+
+    .media-right {
+        float: left;
+    }
+
+    .section-image-2{
+        float: right
+    }
+}
+
+@media(min-width: 768px) {
+    .section-image-2{
+        float: left;}
+}
+
+
+/*-------------------------------------------Header*/
+
+header{
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    background: url(../images/Rebytek\ resyzed\ 120.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    width: 200px;
+}
+
+.nav-name {
+    color: #000732;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.nav-name:hover {
+    color: #dc3545;
+}
+
+.btn-danger {
+    margin-top: -3px;
+    padding: 3px;
+    border-radius: 25%;
+}
+
+.btn-danger:hover {
+    color: aliceblue;
+}
+
 /*-------------------------------------------Footer*/
 
 footer {
     background-color: #000732;
     color: #dc3545;
     min-height: 120px;
-    margin: 0;
+    margin-top: 15px;
 }
 
 .social {
@@ -240,14 +274,28 @@ footer {
 .section-image {
     background: url(../images/volunteer-1.jpg);
     background-position: center;
+    float: right;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    height: 350px;
+    width: 80%;
+}
+
+.section-image-2 {
+    background: url(../images/recycling1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-right: 15px;
     margin-bottom: 15px;
-    height: 400px;
-    width: 100%;
+    height: 350px;
+    width: 80%;
 }
 
 

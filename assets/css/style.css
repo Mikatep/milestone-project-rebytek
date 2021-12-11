@@ -18,7 +18,7 @@
 .row-headings {
     font-family: "Exo", sans-serif;
     font-weight: 800;
-    color: #000732;
+    color: #07162F;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 2.5rem;
@@ -29,7 +29,7 @@
 .col-headings {
     font-family: "Exo", sans-serif;
     font-weight: 600;
-    color: #000732;
+    color: #07162F;
     padding-top: 10px;
     font-size: 20px;
     width: 80%;
@@ -38,7 +38,7 @@
 .col-para {
     font-family: "Exo", sans-serif;
     font-weight: 500;
-    color: #000732;
+    color: #07162F;
     margin-top: 35px;
     margin-left: 15px;
     margin-right: 15px;
@@ -56,7 +56,7 @@
 }
 
 .col-btn {
-    color: #000732;
+    color: #07162F;
     font-weight: 600;
     font-size: 20px;
     margin-left: 15px;
@@ -67,6 +67,15 @@
 @media(max-width: 767px) {
     .nav-item {
         text-align: center;}
+
+    .nav-item:not(:last-child) {
+        background-color: #07162F;
+        border: 1px solid aliceblue;
+    }
+
+    .nav-item:last-child {
+        margin: 10px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -126,24 +135,21 @@ article {
         float: left;}
 }
 
-
 /*-------------------------------------------Header*/
 
 header{
     font-family: "Roboto", sans-serif;
+    background-color: #07162F;
 }
 
 .logo {
-    background: url(../images/Rebytek\ resyzed\ 120.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 120px;
     width: 200px;
+    margin-bottom: 8px;
 }
 
 .nav-name {
-    color: #000732;
+    color: aliceblue;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 2px;
@@ -160,13 +166,18 @@ header{
 }
 
 .btn-danger:hover {
-    color: aliceblue;
+    color: #07162F;
 }
 
+.navbar-dark .navbar-toggler {
+    color: aliceblue;
+    border-color: aliceblue;
+    margin-top: 15px;
+}
 /*-------------------------------------------Footer*/
 
 footer {
-    background-color: #000732;
+    background-color: #07162F;
     color: #dc3545;
     min-height: 120px;
     margin-top: 15px;
@@ -188,7 +199,7 @@ footer {
     font-size:  14px;
     line-height: 9px;
     text-align: center;
-    color: #000732;
+    color: #07162F;
     background: #dc3545;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -246,7 +257,7 @@ footer {
 }
 
 #cover-text a {
-    color: #000732;
+    color: #07162F;
 }
 
 #cover-text a:hover {

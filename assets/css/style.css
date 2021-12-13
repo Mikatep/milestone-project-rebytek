@@ -93,7 +93,7 @@
 }
 
 @media(max-width: 767px) {
-article {
+#article {
         height: 226px;
         background: url(../images/Rebytek-logo2-media-query.png);
         background-position: center;

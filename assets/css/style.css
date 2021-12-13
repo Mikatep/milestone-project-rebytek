@@ -340,13 +340,29 @@ footer {
 /*-------------------------------------------Hero image about.html*/
 
 #hero-image-about {
-    height:700px;
+    height:500px;
     width:100% auto;
-    background: url("../images/blonde1.jpg");
+    background: url("../images/blonde-crop.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.about-para {
+    text-align: justify;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.about-headings {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    color: #07162F;
+}
+   
 
 
 

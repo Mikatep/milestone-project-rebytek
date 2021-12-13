@@ -368,14 +368,16 @@ footer {
     font-weight: 600;
 }
 
-::-webkit-input-placeholder { /*-------------------------------------------not working*/
-    color: #07162F;
-}
-
 .form-btn {
     color: #07162F;
     font-weight: 600;
     font-size: 20px;
+}
+
+.modal-para {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #07162F;
 }
 
 

@@ -339,12 +339,21 @@ footer {
 
 /*-------------------------------------------Hero image about.html*/
 
+#hero-image-about {
+    height:700px;
+    width:100% auto;
+    background: url("../images/blonde1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -125px;
+}
 
 
 
 
 
-/*-------------------------------------------Hero image collection.html*/
+/*-------------------------------------------Background image collection.html*/
 
 #hero-image-collection {
     height:600px auto;
@@ -355,11 +364,11 @@ footer {
     background-size: cover;
 }
 
+/*------------------------------------------- Form collection.html*/
 .book-collection {
     padding-top: 15px;
     background-color: rgba(245, 244, 244, 0.7);
     background-size: cover;
-    border-radius: 12px;
     padding: 15px;
 }
 
@@ -373,6 +382,8 @@ footer {
     font-weight: 600;
     font-size: 20px;
 }
+
+/*------------------------------------------- Modal collection.html*/
 
 .modal-para {
     font-family: "Roboto";

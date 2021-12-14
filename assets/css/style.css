@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*-------------------------------------------General styles*/
-
+body {
+    overflow-x: hidden;
+}
 .general-sub {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -337,6 +339,24 @@ footer {
     width: 80%;
 }
 
+/*-------------------------------------------Hero image initiatives.html*/
+
+#hero-image-initiatives {
+    height:500px;
+    width:100% auto;
+    background: url("../images/514705012girlresized.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.initiatives-headings {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    color: #07162F;
+}
+
 /*-------------------------------------------Hero image about.html*/
 
 #hero-image-about {
@@ -362,11 +382,6 @@ footer {
     font-weight: 700;
     color: #07162F;
 }
-   
-
-
-
-
 
 /*-------------------------------------------Background image collection.html*/
 

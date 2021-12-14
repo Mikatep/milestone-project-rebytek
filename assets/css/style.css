@@ -170,11 +170,15 @@ body {
 header{
     font-family: "Roboto", sans-serif;
     background-color: #07162F;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
 }
 
 .logo {
-    min-height: 120px;
-    width: 200px;
+    min-height: 70px;
+    width: 170px;
     margin-bottom: 3px;
 }
 
@@ -232,9 +236,6 @@ footer {
     color: #07162F;
     background: #dc3545;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -257,7 +258,11 @@ footer {
     color:#dc3545;
 }
 
-/*-------------------------------------------Hero section*/
+/*-------------------------------------------Hero section index.html*/
+
+#hero {
+    margin-top: 99px;
+}
 
 #hero-image {
     height:500px;
@@ -310,7 +315,7 @@ footer {
     font-size: 24px;
 }
 
-/*-------------------------------------------Our Work*/
+/*-------------------------------------------Our Work index.html*/
 
 .section-image {
     background: url(../images/volunteer-1.jpg);
@@ -341,9 +346,13 @@ footer {
 
 /*-------------------------------------------Hero image initiatives.html*/
 
+#hero-initiatives {
+    margin-top: 99px;
+}
+
 #hero-image-initiatives {
     height:500px;
-    width:100% auto;
+    width:100%;
     background: url("../images/514705012girlresized.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -354,14 +363,63 @@ footer {
     text-align: center;
     font-family: "Exo", sans-serif;
     font-weight: 700;
+    text-align: center;
     color: #07162F;
 }
 
+.col-initiatives {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.img-initiatives-1 {
+    background: url(../images/techcycle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+
+.img-initiatives-2 {
+    background: url(../images/recycling1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+
+.para-initiatives {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 250px;
+}
+    
 /*-------------------------------------------Hero image about.html*/
+
+#hero-about {
+    margin-top: 99px;
+}
 
 #hero-image-about {
     height:500px;
-    width:100% auto;
+    width:100%;
     background: url("../images/blonde-crop.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -385,9 +443,13 @@ footer {
 
 /*-------------------------------------------Background image collection.html*/
 
+#hero-collection {
+    margin-top: 99px;
+}
+
 #hero-image-collection {
-    height:600px auto;
-    width:100% auto;
+    height:600px;
+    width:100%;
     background: url("../images/donate-background.jpg");
     background-position: center;
     background-repeat: no-repeat;

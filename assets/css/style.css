@@ -71,7 +71,19 @@ body {
     font-weight: 600;
     font-size: 20px;
     margin-left: 15px;
+    margin-bottom: 15px;
 }
+
+.btn-danger {
+    margin-top: -3px;
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.btn-danger:hover {
+    color: #07162F;
+}
+
 
 /*-------------------------------------------Media Queries*/
 
@@ -197,16 +209,6 @@ header{
 
 .nav-name:hover {
     color: #dc3545;
-}
-
-.btn-danger {
-    margin-top: -3px;
-    padding: 3px;
-    border-radius: 12px;
-}
-
-.btn-danger:hover {
-    color: #07162F;
 }
 
 .navbar-dark .navbar-toggler {
@@ -493,6 +495,10 @@ footer {
     background-color: rgba(245, 244, 244, 0.7);
     background-size: cover;
     padding: 15px;
+}
+
+.collection-heading {
+    padding-top: 15px;
 }
 
 .input-data {

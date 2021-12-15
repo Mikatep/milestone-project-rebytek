@@ -96,11 +96,17 @@ body {
 
 @media(max-width: 767px) {
 #article {
-        height: 226px;
-        background: url(../images/Rebytek-logo2-media-query.png);
+        height: auto;
+        background: url(../images/Rebytek-copyaliceblue1.png);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;}
+        background-size: contain;
+        margin-left: auto;
+        margin-right:auto}
+
+#hero, #hero-initiatives, #hero-about, #hero-collection {
+    margin-top: 50px!important;}
+
 }
 
 @media(min-width: 768px) {
@@ -156,7 +162,7 @@ body {
         text-align: center;
     }
 }
-
+   
 @media(min-width: 768px) {
     .book-collection {
         width: 55%;

@@ -394,7 +394,7 @@ footer {
 }
 
 .img-initiatives-2 {
-    background: url(../images/recycling1.jpg);
+    background: url(../images/boy-sofa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -406,6 +406,21 @@ footer {
     height: 250px;
     width: 250px;
 }
+
+.img-initiatives-3 {
+    background: url(../images/women-shelter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+}
+
 
 .para-initiatives {
     margin-top: 10px;

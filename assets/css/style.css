@@ -479,7 +479,7 @@ footer {
 }
 
 #hero-image-collection {
-    height:600px;
+    height:auto;
     width:100%;
     background: url("../images/donate-background.jpg");
     background-position: center;

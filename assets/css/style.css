@@ -365,6 +365,8 @@ footer {
     background-size: cover;
 }
 
+/*-------------------------------------------Section initiatives.html*/
+
 .initiatives-headings {
     text-align: center;
     font-family: "Exo", sans-serif;
@@ -447,6 +449,8 @@ footer {
     background-size: cover;
 }
 
+/*-------------------------------------------section about.html*/
+
 .about-para {
     text-align: justify;
     width: 75%;
@@ -461,6 +465,12 @@ footer {
     font-weight: 700;
     color: #07162F;
 }
+
+#about-anchor:hover {
+    color: #dc3545;
+    text-decoration: none;
+}
+    
 
 /*-------------------------------------------Background image collection.html*/
 

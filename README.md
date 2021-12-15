@@ -1,108 +1,146 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 text-align="center">Rebytek</h1>
 
-Welcome Mikatep,
+Rebytek is a Community Interest Company founded with the primary focus of offering access to technology for vulnerable collectives, while promoting the reutilization and recycling of technological devices.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<div>
+<img src="../assets/images/Rebytek-readme.png" alt="rebytek website on different devices">
+</div>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Author
 
-## Gitpod Reminders
+Miriam Cordoba Capote (Github handle: Mikatep)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+-   ### User stories
 
-A blue button should appear to click: _Make Public_,
+    -   #### First Time Visitor Goals
 
-Another blue button should appear to click: _Open Browser_.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to be able to find valuable information about initiatiaves. And I also would want to locate their social media links to get a faster stream of information and a deeper sense of community belogning.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### Returning Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Returning Visitor, I want to be able to check if the organization is involve with any new initiatives.
+        2. As a Returning Visitor, I want to be able to book a collection and get in contact with the organization.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Frequent User Goals
+        1. As a Frequent User, I want to check if the organizations keeps updating the site with new information.
+        2. As a Frequent User, I want to check to see if there organizations is increasing the information available in the website with pictures and new about the donations to the mentioned charities.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are:
+         Dark blue #07162F used mainly for text within the body element and as background color for the nav-bar and footer.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+         Alice blue #F0F8FF used for logos, :hover and social-links
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+         Bright red #dc3545 used for social links, buttons and elements within the hero-images of the different pages.
 
-------
+    -   #### Typography
+        -   The Exo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
 
-## Release History
+    -   #### Imagery
+        -    The large, background hero image of the index page has been selected for representing one of the mains initiaitves of Rebytek "Tech 4 future". Additionally, all the other  hero-images of the different pages in the site have been selected to achieve consistency on the theme of the website.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+   ## Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   ### Existing Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Navigation Bar__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Initiatives, About and book a collection. The navigation bar is placed in each of the pages and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<div>
+<img src="../assets/images/Rebytek-readme.png">
+</div>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+__Hero Images__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Hero images are all different in all 4 pages. Hero-images in Home, Initiatives and About pages host a paragraph with a link to redirect people to book a collection page to make donations. Hero image in Book a Collection page hosts the form to book a collection. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<div>
+<img src="../assets/images/hero-image-readme.png">
+</div>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+__Main Sections__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Main sections are all different in all 3 pages that have a section. Sections in Home and Initiatives pages are composed by pictures and text, to attract the reader. The section in About is only composed by text to exalt the meaning of the text.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<div>
+<img src="../assets/images/section-readme.png">
+</div>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+__Footer__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-  Featured on all four pages, the full responsive footer includes a brief description of the organization with a link to the about page, social links and the Logo which has a link to redirect you to home page. The footer is placed in each of the pages and is identical in each page to allow for easy navigation.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<div>
+<img src="../assets/images/footer-readme.png">
+</div>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+__Form Book a collection__
 
-------
+-  Form to contact the organization and book a collection. It also holds a modal to provide feedback after sending the details.
 
-## FAQ about the uptime script
+<div>
+<img src="../assets/images/form-readme.png">
+</div>
 
-**Why have you added this script?**
+## Testing 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+-  The Website was tested on Google Chrome, Microsoft Edge and Firefox
+-  The website was viewed on a variety of devices such as Laptop, Samsung Tablet, and several android phones
+-  A big amount of testing has been done using google chrome inspect tool to ensure the responsive design was working properly.
+-  Friends and family were asked to check the website and give feedback throughout the different steps of the process.
 
-**How will this affect me?**
+### Validator Testing 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+-  Html
+No errors or warning were returned in any of the pages when passing through the official W3C validator.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-  CSS
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+No errors were returned whe passing through the official Jigsaw validator.
 
-**So….?**
+### Unfixed Bugs
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Not aware of any unfixed bug.
 
-**Can I opt out?**
+## Credits 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- All the text in the website is original.
+- Grids, buttons, navs and forms have been created using bootstrap 4.3 templates.
+- Icons in the footer are from www.fontawesome.com
+- Instuctions on how to troubleshoot the following problems, were take from www.stackoverflow.com:
+    - How to create a wrapper
+    - Help to modify padding top when it's not working in media query.
+    - How to vertically align content
+    - How to see all my commits in git
+- Instuctions on how to troubleshoot the following problems, were take from www.stackoverflow.com:
+    - How to fix the navbar
+    - Help creating a collapse nav-bar
+    - Form validation, modal
+- Help and inspiration in general by following videos and teaching from Code Institute.
+- README.me file has been taken from a template from Code Institute.
+- Developed using VS code and Github.
 
-**Anything more?**
+### Media
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- All the images used in the website are own by the creator of the website, and have been taken from www.shutterstock.com
+- Logo has been created using Adobe software and is own by the creator of the website.
 
----
+## Deployment
 
-Happy coding!
+- The project has been deployed using Github pages.
+
+
+
+
+
+

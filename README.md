@@ -2,9 +2,7 @@
 
 Rebytek is a Community Interest Company founded with the primary focus of offering access to technology for vulnerable collectives, while promoting the reutilization and recycling of technological devices.
 
-<div>
-<img src="../assets/images/Rebytek-readme.png" alt="rebytek website on different devices">
-</div>
+![Alt text](/assets/images/Rebytek-readme.png)
 
 ## Author
 
@@ -54,41 +52,31 @@ Miriam Cordoba Capote (Github handle: Mikatep)
   - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Initiatives, About and book a collection. The navigation bar is placed in each of the pages and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-<div>
-<img src="../assets/images/Rebytek-readme.png">
-</div>
+![Alt text](/assets/images/rebytek-nav-bar.png)
 
 __Hero Images__
 
 - Hero images are all different in all 4 pages. Hero-images in Home, Initiatives and About pages host a paragraph with a link to redirect people to book a collection page to make donations. Hero image in Book a Collection page hosts the form to book a collection. 
 
-<div>
-<img src="../assets/images/hero-image-readme.png">
-</div>
+![Alt text](/assets/images/hero-image-readme.png)
 
 __Main Sections__
 
 - Main sections are all different in all 3 pages that have a section. Sections in Home and Initiatives pages are composed by pictures and text, to attract the reader. The section in About is only composed by text to exalt the meaning of the text.
 
-<div>
-<img src="../assets/images/section-readme.png">
-</div>
+![Alt text](/assets/images/section-readme.png)
 
 __Footer__
 
 -  Featured on all four pages, the full responsive footer includes a brief description of the organization with a link to the about page, social links and the Logo which has a link to redirect you to home page. The footer is placed in each of the pages and is identical in each page to allow for easy navigation.
 
-<div>
-<img src="../assets/images/footer-readme.png">
-</div>
+![Alt text](/assets/images/footer-readme.png)
 
 __Form Book a collection__
 
 -  Form to contact the organization and book a collection. It also holds a modal to provide feedback after sending the details.
 
-<div>
-<img src="../assets/images/form-readme.png">
-</div>
+![Alt text](/assets/images/form-readme.png)
 
 ## Testing 
 
@@ -122,6 +110,7 @@ Not aware of any unfixed bug.
     - Help to modify padding top when it's not working in media query.
     - How to vertically align content
     - How to see all my commits in git
+    - Images not working in README
 - Instuctions on how to troubleshoot the following problems, were take from www.stackoverflow.com:
     - How to fix the navbar
     - Help creating a collapse nav-bar
